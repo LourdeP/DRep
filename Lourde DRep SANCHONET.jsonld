@@ -1,0 +1,69 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP100:IdentityReference",
+            "Link": "CIP100:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "Lourde",
+    "motivations": "Technology, evolution, education and community growth are all at the heart of my motivations to accept status as DRep. A long time member of the community and many projects that has access to a network of professionals and educators it is time to take responsibility of being a tenured community representitve and register for DRep.",
+    "objectives": "A constant mainstay in the Cardano ecosystem, constantly on the edge of technological evolution within the protocol. My votes are for the good of the blockchain and the growing community. As a DRep the vote will be in the best interest of the protocol, and any education it may bring to the members at large.",
+    "paymentAddress": "addr_test1qqkc9at4zyfx5466xa6nukn3teqcc4xa355sskunmpmzd856ghwxry79x358n0cu29f5jxlesgwvxj9hxq0u437xp6aslnfsps",
+    "qualifications": "",
+    "references": [
+      {
+        "@type": "Other",
+        "label": "Label",
+        "uri": "https://x.com/Lourde_P"
+      }
+    ]
+  }
+}
