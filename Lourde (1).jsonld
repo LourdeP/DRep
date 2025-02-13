@@ -1,0 +1,69 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "Lourde",
+    "motivations": "\"To help in guiding the future and the growth of the worlds foremost multi-sectored software ecosystem and the technologies that are conceived from it. The growing community requires seasoned veterans to help maintain a balance so that the blockchain can continue on.  A software and worldwide renaissance is taking place, Cardano is a key to the futures lore, I wish to willingly be a character in that tale. ~Delegate Lourde DRep Ouroborus Imperator Aeternalis ~",
+    "objectives": "\"To further the objectives set forth by the Blockchain Constitution as written by the community, to uphold all upgrades and evolutions of the technology for the continued growth of the community and the communities longevity , to always promote the spread of Blockchain education and the greater good that CARDANO can do.",
+    "paymentAddress": "addr1q9au383gg9a6z37nfyld7724p9z2vpg7av4gem93z79p5q8jhrzwgn0ry226zcujfytr62n3syjxye8dqsycedgrqf0qrxcg78",
+    "qualifications": "Tenured community member that has an understanding of blockchain technologies and the benefits of said technology technical and non technical.",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "X Social ",
+        "uri": "https://x.com/Lourde_P"
+      }
+    ]
+  }
+}
